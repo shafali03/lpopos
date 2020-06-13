@@ -1,5 +1,6 @@
 import React from 'react'
 import PoposSpace from '../PoposSpace/PoposSpace'
+import './PoposList.css'
 
 function PoposList() {
   return (
