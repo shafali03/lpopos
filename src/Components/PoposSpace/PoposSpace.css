@@ -1,0 +1,9 @@
+.PoposSpace {
+  width: 100%;
+  text-align: center;
+}
+
+.PoposSpace > img {
+  width: 100%;
+  height: auto;
+}
