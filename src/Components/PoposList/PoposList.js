@@ -9,9 +9,7 @@ function PoposList() {
 
   const spaces = data.map((obj) => {
 
-    const title = obj.title
-    const address = obj.address
-    const images = obj.images
+    const { title, address, images } = obj
 
     return (
       <PoposSpace
