@@ -8,6 +8,11 @@ import data from '../../sfpopos-data.json'
 function PoposList() {
 
   const spaces = data.map((obj) => {
+
+    const title = obj.title
+    const address = obj.address
+    const images = obj.images
+
     return (
       <PoposSpace
         name={obj.title}
