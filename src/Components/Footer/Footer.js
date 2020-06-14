@@ -1,11 +1,15 @@
 import React from 'react'
 import './Footer.css'
 
+
+
 function Footer() {
+
+  const year = new Date()
 
   return (
     <div className="Footer" data-test="component-footer">
-      <p>copyright Shafique Mohammed 2020</p>
+      <p>&copy; {year.getFullYear()} Shafique Mohammed </p>
     </div>
   )
 }
