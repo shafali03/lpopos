@@ -12,12 +12,12 @@ test('render without error', () => {
 
 test('render the title', () => {
   const wrapper = shallow(<Title />)
-  expect(wrapper.find('h1').text()).toContain("LPOPOS")
+  expect(wrapper.find('h1').text()).toContain("SFPOPOS")
 })
 
 
 test('render the subtitle', () => {
   const wrapper = shallow(<Title />)
-  expect(wrapper.find('h2').text()).toContain("London Privately Owned Public Open Spaces")
+  expect(wrapper.find('h2').text()).toContain("San Francisco Privately Owned Public Open Spaces")
 })
 
