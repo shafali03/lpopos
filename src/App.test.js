@@ -1,7 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme'
 import { MemoryRouter } from 'react-router'
-import AboutPage from './page/About'
 import App from './App';
 
 
