@@ -1,8 +1,8 @@
 import React from 'react';
-import { shallow } from 'enzyme'
+import { shallow, mount } from 'enzyme'
+import { MemoryRouter } from 'react-router'
+import AboutPage from './page/About'
 import App from './App';
-// import Title from './Components/Title/Title';
-
 
 
 test('render without error', () => {
